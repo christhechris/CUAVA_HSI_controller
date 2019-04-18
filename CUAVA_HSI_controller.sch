@@ -188,7 +188,7 @@
 <libraries>
 <library name="RPI_CAM" urn="urn:adsk.eagle:library:4435631">
 <packages>
-<package name="FCI_10051922-1510ELF" urn="urn:adsk.eagle:footprint:4435641/2" locally_modified="yes" library_version="36" library_locally_modified="yes">
+<package name="FCI_10051922-1510ELF" urn="urn:adsk.eagle:footprint:4435641/3" library_version="38" library_locally_modified="yes">
 <wire x1="3.2258" y1="-2.8448" x2="3.5052" y2="-3.3782" width="0.1524" layer="21"/>
 <wire x1="3.7846" y1="-2.8194" x2="3.5052" y2="-3.3782" width="0.1524" layer="21"/>
 <wire x1="3.9878" y1="-2.1082" x2="5.0038" y2="-2.1082" width="0.1524" layer="21"/>
@@ -2793,13 +2793,14 @@ Metric Code Size 1005</description>
 <rectangle x1="9.93901875" y1="8.32916875" x2="11.821159375" y2="8.35025" layer="21"/>
 <rectangle x1="10.340340625" y1="8.35025" x2="11.39951875" y2="8.37133125" layer="21"/>
 </package>
-<package name="SAIL_FRAME_DEFAULT" urn="urn:adsk.eagle:footprint:9136436/1" library_version="26">
+<package name="SAIL_FRAME_DEFAULT" urn="urn:adsk.eagle:footprint:9136436/2" library_version="39">
 <description>&lt;b&gt;Description:&lt;/b&gt; Footprint for adding Meta Data to the PCB.&lt;br/&gt;</description>
-<text x="0" y="-1.27" size="0.8128" layer="21" font="vector" ratio="16">(c) 2018 The University of Sydney</text>
-<text x="0" y="-2.54" size="0.8128" layer="21" font="vector" ratio="16">Sydney Astrophotonic Instrumentation Lab</text>
-<text x="0" y="-3.81" size="0.8128" layer="21" font="vector" ratio="16">&gt;DRAWING_NAME</text>
-<text x="0" y="-5.08" size="0.8128" layer="21" font="vector" ratio="16">&gt;REVNUM</text>
-<text x="0" y="-6.35" size="0.8128" layer="21" font="vector" ratio="16">&gt;DNAME</text>
+<text x="0" y="-1.27" size="1.27" layer="21" font="vector" ratio="16">(c) 2018 The University of Sydney</text>
+<text x="0" y="-3.175" size="1.27" layer="21" font="vector" ratio="16">Sydney Astrophotonic Instrumentation Lab</text>
+<text x="0" y="-5.08" size="1.27" layer="21" font="vector" ratio="16">&gt;DRAWING_NAME</text>
+<text x="0" y="-6.985" size="1.27" layer="21" font="vector" ratio="16">&gt;REVNUM</text>
+<text x="11.43" y="-8.89" size="1.27" layer="21" font="vector" ratio="16">&gt;DNAME</text>
+<text x="0" y="-8.89" size="1.27" layer="21" font="vector" ratio="16">Designed by:</text>
 </package>
 <package name="PTH_2.54MM_01X04" urn="urn:adsk.eagle:footprint:9952359/3" library_version="36" library_locally_modified="yes">
 <description>&lt;b&gt;Description:&lt;/b&gt; Package for 2.54MM Pitch Header 4 Position. Based on 4UCON 00834.&lt;br&gt;</description>
@@ -3128,7 +3129,7 @@ Metric Code Size 1005</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="FCI_10051922-1510ELF" urn="urn:adsk.eagle:package:4435669/3" locally_modified="yes" type="model" library_version="36" library_locally_modified="yes">
+<package3d name="FCI_10051922-1510ELF" urn="urn:adsk.eagle:package:4435669/4" type="model" library_version="38" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="FCI_10051922-1510ELF"/>
 </packageinstances>
@@ -3214,7 +3215,7 @@ Metric Code Size 1005</description>
 <packageinstance name="R0402"/>
 </packageinstances>
 </package3d>
-<package3d name="SAIL_FRAME_DEFAULT" urn="urn:adsk.eagle:package:9136439/1" type="box" library_version="26">
+<package3d name="SAIL_FRAME_DEFAULT" urn="urn:adsk.eagle:package:9136439/2" type="box" library_version="39">
 <description>&lt;b&gt;Description:&lt;/b&gt; Footprint for adding Meta Data to the PCB.&lt;br/&gt;</description>
 <packageinstances>
 <packageinstance name="SAIL_FRAME_DEFAULT"/>
@@ -3265,7 +3266,7 @@ Metric Code Size 1005</description>
 <packageinstance name="QFN50P400X400X85-25N"/>
 </packageinstances>
 </package3d>
-<package3d name="SOP65P640X110-16N" urn="urn:adsk.eagle:package:10400186/1" type="box" library_version="36" library_locally_modified="yes">
+<package3d name="SOP65P640X110-16N" urn="urn:adsk.eagle:package:10400186/2" type="model" library_version="38" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="SOP65P640X110-16N"/>
 </packageinstances>
@@ -3628,7 +3629,7 @@ Metric Code Size 1005</description>
 <pin name="1" x="-3.81" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <pin name="2" x="3.81" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
-<symbol name="2V5" library_version="36" library_locally_modified="yes">
+<symbol name="2V5" urn="urn:adsk.eagle:symbol:10453268/1" library_version="38" library_locally_modified="yes">
 <description>&lt;h3&gt;2V5 Voltage Supply&lt;/h3&gt;</description>
 <wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
@@ -3900,7 +3901,7 @@ Metric Code Size 1005</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="10051922-1510ELF" urn="urn:adsk.eagle:component:4435682/3" locally_modified="yes" prefix="J" uservalue="yes" library_version="36" library_locally_modified="yes">
+<deviceset name="10051922-1510ELF" urn="urn:adsk.eagle:component:4435682/4" prefix="J" uservalue="yes" library_version="38" library_locally_modified="yes">
 <description>FFC/FPC CONNECTOR, 15POS, 1ROW</description>
 <gates>
 <gate name="A" symbol="10051922-1510ELF_ALT" x="-2.54" y="12.7"/>
@@ -3925,7 +3926,7 @@ Metric Code Size 1005</description>
 <connect gate="A" pin="9" pad="9"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4435669/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4435669/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -4066,7 +4067,7 @@ Metric Code Size 1005</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2V5_DAC" prefix="SUPPLY" library_version="36" library_locally_modified="yes">
+<deviceset name="2V5_DAC" urn="urn:adsk.eagle:component:10453269/1" prefix="SUPPLY" library_version="38" library_locally_modified="yes">
 <description>&lt;h3&gt;2V5 Supply Symbol&lt;/h3&gt;
 &lt;p&gt;Power supply symbol for a specifically-stated 2V5 source.&lt;/p&gt;</description>
 <gates>
@@ -4677,7 +4678,7 @@ ESQ-126-39-G-D or ESQ-126-38-G-D or SSQ-126-21-G-D or TSW-126-07-G-D (Female par
 </device>
 </devices>
 </deviceset>
-<deviceset name="SAIL_FRAME" urn="urn:adsk.eagle:component:9136442/1" prefix="FRAME" library_version="26">
+<deviceset name="SAIL_FRAME" urn="urn:adsk.eagle:component:9136442/2" prefix="FRAME" library_version="39">
 <description>&lt;b&gt;Library:&lt;/b&gt;  MF_Aesthetics&lt;br/&gt;
 &lt;b&gt;Description:&lt;/b&gt; Frame for adding Meta Data to the PCB and Schematic.&lt;br/&gt;</description>
 <gates>
@@ -4686,7 +4687,7 @@ ESQ-126-39-G-D or ESQ-126-38-G-D or SSQ-126-21-G-D or TSW-126-07-G-D (Female par
 <devices>
 <device name="DEFAULT" package="SAIL_FRAME_DEFAULT">
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9136439/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:9136439/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -4748,7 +4749,7 @@ ESQ-126-39-G-D or ESQ-126-38-G-D or SSQ-126-21-G-D or TSW-126-07-G-D (Female par
 </device>
 </devices>
 </deviceset>
-<deviceset name="9774030243" urn="urn:adsk.eagle:component:10015038/3" prefix="STD" uservalue="yes" library_version="32" library_locally_modified="yes">
+<deviceset name="9774030243" urn="urn:adsk.eagle:component:10015038/4" prefix="STD" uservalue="yes" library_version="38" library_locally_modified="yes">
 <description>Standoffs &amp; Spacers WA-SMSI SMT Steel M2 Intrnl NonStop
 
 &lt;p&gt;
@@ -4766,19 +4767,19 @@ https://katalog.we-online.de/em/datasheet/9774030243.pdf</description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="MPN" value="9774030243" constant="no"/>
+<attribute name="MPN" value="9774030243R" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SC18IS600IBS,128" urn="urn:adsk.eagle:component:10400190/1" locally_modified="yes" prefix="U" library_version="36" library_locally_modified="yes">
-<description>SC18IS600 Series 3.3 V SPI to I2C Interface Surface Mount - HVQFN-24</description>
+<deviceset name="SC18IS600" urn="urn:adsk.eagle:component:10400190/3" prefix="U" library_version="38" library_locally_modified="yes">
+<description>SC18IS600 Series 3.3 V SPI to I2C Interface Surface Mount - TSSOP16</description>
 <gates>
 <gate name="G$1" symbol="SC18IS600IBS,128" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="QFN50P400X400X85-25N">
+<device name="IBS" package="QFN50P400X400X85-25N">
 <connects>
 <connect gate="G$1" pin="!CS" pad="1"/>
 <connect gate="G$1" pin="!INT" pad="17"/>
@@ -4805,13 +4806,13 @@ https://katalog.we-online.de/em/datasheet/9774030243.pdf</description>
 <attribute name="AVAILABILITY" value="Unavailable"/>
 <attribute name="DESCRIPTION" value=" SC18IS600 Series 3.3 V SPI to I2C Interface Surface Mount - HVQFN-24 "/>
 <attribute name="MF" value="NXP USA"/>
-<attribute name="MP" value="SC18IS600IBS,128"/>
+<attribute name="MPN" value="SC18IS600IBS"/>
 <attribute name="PACKAGE" value="HVQFN-24 NXP Semiconductors"/>
 <attribute name="PRICE" value="None"/>
 </technology>
 </technologies>
 </device>
-<device name="SOP65P640X110-16N" package="SOP65P640X110-16N">
+<device name="IPW" package="SOP65P640X110-16N">
 <connects>
 <connect gate="G$1" pin="!CS" pad="2"/>
 <connect gate="G$1" pin="!INT" pad="14"/>
@@ -4831,10 +4832,13 @@ https://katalog.we-online.de/em/datasheet/9774030243.pdf</description>
 <connect gate="G$1" pin="VSS" pad="4"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:10400186/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10400186/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MPN" value="SC18IS600IPW" constant="no"/>
+<attribute name="PACKAGE" value="TSSOP-16" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -4901,7 +4905,7 @@ https://katalog.we-online.de/em/datasheet/9774030243.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CON_01X05" urn="urn:adsk.eagle:component:10400191/4" prefix="J" library_version="36" library_locally_modified="yes">
+<deviceset name="CON_01X05" urn="urn:adsk.eagle:component:10400191/6" prefix="J" library_version="39">
 <description>&lt;b&gt;Library:&lt;/b&gt;  MF_Connectors&lt;br/&gt;
 &lt;b&gt;Description:&lt;/b&gt; Header Connector with 5 Positions and 01 Rows. Use the LABEL Attribute to label the pin on the schematic and PCB. You can remove the attributes on the PCB by using the SMASH function on the part and then deleting the text.&lt;br/&gt;</description>
 <gates>
@@ -4946,7 +4950,14 @@ https://katalog.we-online.de/em/datasheet/9774030243.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:10400188/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="LABEL01" value="" constant="no"/>
+<attribute name="LABEL02" value="" constant="no"/>
+<attribute name="LABEL03" value="" constant="no"/>
+<attribute name="LABEL04" value="" constant="no"/>
+<attribute name="LABEL05" value="" constant="no"/>
+<attribute name="MPN" value=" SSM-105-L-SH" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -4994,7 +5005,7 @@ https://katalog.we-online.de/em/datasheet/9774030243.pdf</description>
 </modules>
 <parts>
 <part name="J7" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="1473149-4" device="" package3d_urn="urn:adsk.eagle:package:4435670/3"/>
-<part name="J5" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="10051922-1510ELF" device="" package3d_urn="urn:adsk.eagle:package:4435669/3" value="CAM_IMG"/>
+<part name="J5" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="10051922-1510ELF" device="" package3d_urn="urn:adsk.eagle:package:4435669/4" value="CAM_IMG"/>
 <part name="GND13" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="GND" device=""/>
 <part name="U1" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="PAM2306AYPKE" device="" package3d_urn="urn:adsk.eagle:package:8399591/2"/>
 <part name="U3" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="AP7115-25SEG-7" device="" package3d_urn="urn:adsk.eagle:package:8399590/3"/>
@@ -5048,7 +5059,7 @@ https://katalog.we-online.de/em/datasheet/9774030243.pdf</description>
 <part name="SUPPLY31" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="5V" device=""/>
 <part name="SUPPLY22" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="1.8V" device=""/>
 <part name="SUPPLY26" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="1.8V" device=""/>
-<part name="J1" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="10051922-1510ELF" device="" package3d_urn="urn:adsk.eagle:package:4435669/3" value="CAM_TOL"/>
+<part name="J1" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="10051922-1510ELF" device="" package3d_urn="urn:adsk.eagle:package:4435669/4" value="CAM_TOL"/>
 <part name="SUPPLY9" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="3.3V" device=""/>
 <part name="GND9" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="5V" device=""/>
@@ -5078,11 +5089,11 @@ https://katalog.we-online.de/em/datasheet/9774030243.pdf</description>
 <part name="SUPPLY17" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="3.3V" device=""/>
 <part name="R7" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="SMD-RES-100K-1%-1/16W(0402)" device="" package3d_urn="urn:adsk.eagle:package:8399820/5" value="100K"/>
 <part name="SUPPLY24" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="3.3V" device=""/>
-<part name="FRAME1" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="SAIL_FRAME" device="DEFAULT" package3d_urn="urn:adsk.eagle:package:9136439/1">
+<part name="FRAME1" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="SAIL_FRAME" device="DEFAULT" package3d_urn="urn:adsk.eagle:package:9136439/2">
 <attribute name="DNAME" value="Chris Betters"/>
-<attribute name="REVNUM" value="REV: 1"/>
+<attribute name="REVNUM" value="REV: 2"/>
 </part>
-<part name="J6" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="10051922-1510ELF" device="" package3d_urn="urn:adsk.eagle:package:4435669/3" value="STS_CAM"/>
+<part name="J6" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="10051922-1510ELF" device="" package3d_urn="urn:adsk.eagle:package:4435669/4" value="STS_CAM"/>
 <part name="J4" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="CON_01X04" device="_PTH_2.54MM" package3d_urn="urn:adsk.eagle:package:9952361/4" value="MF-CON-2.54mm-01x04">
 <attribute name="LABEL01" value="GND"/>
 <attribute name="LABEL04" value="5V"/>
@@ -5101,12 +5112,12 @@ https://katalog.we-online.de/em/datasheet/9774030243.pdf</description>
 <part name="GND17" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="GND" device=""/>
 <part name="STD1" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="9774030243" device="" package3d_urn="urn:adsk.eagle:package:10015037/3"/>
 <part name="STD2" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="9774030243" device="" package3d_urn="urn:adsk.eagle:package:10015037/3"/>
-<part name="U2" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="SC18IS600IBS,128" device="" package3d_urn="urn:adsk.eagle:package:10400185/2"/>
+<part name="U2" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="SC18IS600" device="IPW" package3d_urn="urn:adsk.eagle:package:10400186/2" value="SC18IS600IPW"/>
 <part name="JP1" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="JUMPER-SMT_2_NO" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39277/1"/>
 <part name="JP2" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="JUMPER-SMT_2_NO" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39277/1"/>
 <part name="SUPPLY10" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="3.3V" device=""/>
 <part name="GND12" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="GND" device=""/>
-<part name="J3" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="CON_01X05" device="_PTH_2.54MM" package3d_urn="urn:adsk.eagle:package:10400187/4" value="MF-CON-2.54mm-01x05">
+<part name="J3" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="CON_01X05" device="" package3d_urn="urn:adsk.eagle:package:10400188/2" value="CON_01X05">
 <attribute name="LABEL01" value="INT"/>
 <attribute name="LABEL02" value="CS"/>
 <attribute name="LABEL03" value="MISO"/>
@@ -5459,9 +5470,9 @@ https://katalog.we-online.de/em/datasheet/9774030243.pdf</description>
 <instance part="GND17" gate="1" x="-30.48" y="114.3" smashed="yes">
 <attribute name="VALUE" x="-30.48" y="114.046" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="STD1" gate="G$1" x="-312.42" y="246.38" smashed="yes">
-<attribute name="NAME" x="-309.626" y="246.9642" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-309.626" y="243.9162" size="1.778" layer="96"/>
+<instance part="STD1" gate="G$1" x="-271.78" y="246.38" smashed="yes">
+<attribute name="NAME" x="-268.986" y="246.9642" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-268.986" y="243.9162" size="1.778" layer="96"/>
 </instance>
 <instance part="STD2" gate="G$1" x="-284.48" y="246.38" smashed="yes">
 <attribute name="NAME" x="-281.686" y="246.9642" size="1.778" layer="95"/>
@@ -5485,7 +5496,6 @@ https://katalog.we-online.de/em/datasheet/9774030243.pdf</description>
 </instance>
 <instance part="J3" gate="G$1" x="-160.02" y="259.08" smashed="yes" rot="R180">
 <attribute name="NAME" x="-160.02" y="254" size="1.016" layer="95" font="vector" rot="R180" align="top-left"/>
-<attribute name="VALUE" x="-160.02" y="256.54" size="1.016" layer="96" font="vector" rot="R180"/>
 <attribute name="LABEL04" x="-167.64" y="266.7" size="1.016" layer="97" font="vector" rot="R180" align="center-left"/>
 <attribute name="LABEL03" x="-167.64" y="264.16" size="1.016" layer="97" font="vector" rot="R180" align="center-left"/>
 <attribute name="LABEL01" x="-167.64" y="259.08" size="1.016" layer="97" font="vector" rot="R180" align="center-left"/>
@@ -7181,7 +7191,7 @@ https://katalog.we-online.de/em/datasheet/9774030243.pdf</description>
 <label x="-116.84" y="215.9" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="EXT_RESET" class="0">
+<net name="STS_EXT_RESET" class="0">
 <segment>
 <pinref part="J6" gate="A" pin="6"/>
 <wire x1="-38.1" y1="157.48" x2="-10.16" y2="157.48" width="0.1524" layer="91"/>
@@ -7191,28 +7201,28 @@ https://katalog.we-online.de/em/datasheet/9774030243.pdf</description>
 <wire x1="20.32" y1="175.26" x2="-10.16" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SINGLE_STROBE" class="0">
+<net name="STS_SINGLE_STROBE" class="0">
 <segment>
 <pinref part="J6" gate="A" pin="7"/>
 <wire x1="-38.1" y1="154.94" x2="-17.78" y2="154.94" width="0.1524" layer="91"/>
 <label x="-17.78" y="154.94" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
-<net name="CONT_STROBE" class="0">
+<net name="STS_CONT_STROBE" class="0">
 <segment>
 <pinref part="J6" gate="A" pin="8"/>
 <wire x1="-38.1" y1="152.4" x2="-17.78" y2="152.4" width="0.1524" layer="91"/>
 <label x="-17.78" y="152.4" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
-<net name="LAMP_ENABLE" class="0">
+<net name="STS_LAMP_ENABLE" class="0">
 <segment>
 <pinref part="J6" gate="A" pin="10"/>
 <wire x1="-38.1" y1="147.32" x2="-17.78" y2="147.32" width="0.1524" layer="91"/>
 <label x="-17.78" y="147.32" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
-<net name="EXT_TRG_IN" class="0">
+<net name="STS_EXT_TRG_IN" class="0">
 <segment>
 <pinref part="J6" gate="A" pin="11"/>
 <wire x1="-38.1" y1="144.78" x2="-7.62" y2="144.78" width="0.1524" layer="91"/>
