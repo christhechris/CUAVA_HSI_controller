@@ -765,16 +765,6 @@ Metric Code Size 1005</description>
 <hole x="-33.4" y="0" drill="1.1"/>
 <hole x="33.4" y="0" drill="1.6"/>
 </package>
-<package name="R0603" urn="urn:adsk.eagle:footprint:8399815/1" library_version="9" library_locally_modified="yes">
-<wire x1="0.635" y1="1.397" x2="0.635" y2="-1.397" width="0.127" layer="21"/>
-<wire x1="0.635" y1="-1.397" x2="-0.635" y2="-1.397" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="-1.397" x2="-0.635" y2="1.397" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="1.397" x2="0.635" y2="1.397" width="0.127" layer="21"/>
-<smd name="1" x="0" y="0.762" dx="0.889" dy="0.889" layer="1" roundness="25" rot="R270"/>
-<smd name="2" x="0" y="-0.762" dx="0.889" dy="0.889" layer="1" roundness="25" rot="R270"/>
-<text x="-1.27" y="-2.032" size="0.889" layer="25" ratio="11" rot="R90">&gt;NAME</text>
-<text x="1.435" y="-1.605" size="0.635" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
-</package>
 <package name="2X26HEADER" urn="urn:adsk.eagle:footprint:8399588/3" library_version="43" library_locally_modified="yes">
 <circle x="63.5" y="2.54" radius="0.127" width="0.4064" layer="51"/>
 <circle x="63.5" y="0" radius="0.127" width="0.4064" layer="51"/>
@@ -3908,11 +3898,6 @@ Metric Code Size 1005</description>
 <packageinstance name="FUSM4632X85"/>
 </packageinstances>
 </package3d>
-<package3d name="R0603" urn="urn:adsk.eagle:package:8399816/2" type="model" library_version="9" library_locally_modified="yes">
-<packageinstances>
-<packageinstance name="R0603"/>
-</packageinstances>
-</package3d>
 <package3d name="CUBESATBUS" urn="urn:adsk.eagle:package:8399594/5" type="model" library_version="43" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="2X26HEADER"/>
@@ -4111,13 +4096,6 @@ thin small outline package</description>
 <text x="1.27" y="-2.794" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
 <pin name="1" x="-5.08" y="0" visible="off" length="short"/>
 <pin name="2" x="7.62" y="0" visible="off" length="short" rot="R180"/>
-</symbol>
-<symbol name="VXX" urn="urn:adsk.eagle:symbol:8399557/2" library_version="18" library_locally_modified="yes">
-<description>&lt;h3&gt;XX Voltage Supply&lt;/h3&gt;</description>
-<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<pin name="VXX" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 </symbol>
 <symbol name="IND" urn="urn:adsk.eagle:symbol:4435644/2" library_version="2">
 <pin name="1" x="15.24" y="0" visible="off" length="short" direction="pas" rot="R180"/>
@@ -4872,22 +4850,10 @@ thin small outline package</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="VXX" urn="urn:adsk.eagle:component:8399598/2" prefix="SUPPLY" uservalue="yes" library_version="18" library_locally_modified="yes">
-<description>&lt;h3&gt;5V Supply Symbol&lt;/h3&gt;
-&lt;p&gt;Power supply symbol for a specifically-stated 5V source.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="VXX" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CERAMIC-4.7UF-10V-10%-X5R(0603)" urn="urn:adsk.eagle:component:8399596/5" prefix="C" uservalue="yes" library_version="20">
-<description>302010111</description>
+<deviceset name="CERAMIC-4.7UF-10V-10%-X5R(0603)" urn="urn:adsk.eagle:component:8399596/6" prefix="C" uservalue="yes" library_version="52">
+<description>SEEDOPL - CCC0603KRX5R6BB475
+&lt;p&gt;
+Current Samsung CL10A475KQ8NNNC</description>
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -4902,7 +4868,7 @@ thin small outline package</description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="MPN" value="CC0603KRX5R6BB475"/>
+<attribute name="MPN" value="CL10A475KQ8NNN"/>
 <attribute name="VALUE" value="4.7uf"/>
 </technology>
 </technologies>
@@ -4979,24 +4945,23 @@ Inductor; Semi-Shielded; Ind 4.7 uH; Tol 20%; Cur-Rtg 1.9 A; SMT; 1616</descript
 </device>
 </devices>
 </deviceset>
-<deviceset name="CERAMIC-10UF-25V-10%-X5R(0805)" urn="urn:adsk.eagle:component:8399610/4" prefix="C" uservalue="yes" library_version="19">
-<description>302010178</description>
+<deviceset name="CERAMIC-10UF-(1206)" urn="urn:adsk.eagle:component:15317333/1" prefix="C" uservalue="yes" library_version="52">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="C2012">
+<device name="" package="C3216">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23625/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8399592/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="MPN" value="CC0805KKX5R8BB106" constant="no"/>
-<attribute name="VALUE" value="10uf"/>
+<attribute name="MPN" value="MF-CAP-1206-10uF" constant="no"/>
+<attribute name="VALUE" value="10uF" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5016,10 +4981,12 @@ Inductor; Semi-Shielded; Ind 4.7 uH; Tol 20%; Cur-Rtg 1.9 A; SMT; 1616</descript
 </device>
 </devices>
 </deviceset>
-<deviceset name="CERAMIC-47UF-6.3V-20%-(1206)" urn="urn:adsk.eagle:component:8399616/5" prefix="C" uservalue="yes" library_version="19">
+<deviceset name="CERAMIC-47UF-6.3V-20%-(1206)" urn="urn:adsk.eagle:component:8399616/6" prefix="C" uservalue="yes" library_version="52">
 <description>CC1206MKX5R5BB476 - SEEEDOPL 1206 47UF ±20% 6.3V X5R
 &lt;p&gt;
-GRM31CE70J476ME15L (https://www.digikey.com.au/product-detail/en/murata-electronics-north-america/GRM31CE70J476ME15L/490-9967-1-ND/5026463) - better temp</description>
+GRM31CE70J476ME15L (https://www.digikey.com.au/product-detail/en/murata-electronics-north-america/GRM31CE70J476ME15L/490-9967-1-ND/5026463) - better temp
+&lt;p&gt;
+Current Samsung CL31A476MQHNNNE</description>
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -5034,7 +5001,7 @@ GRM31CE70J476ME15L (https://www.digikey.com.au/product-detail/en/murata-electron
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="MPN" value="CC1206MKX5R5BB476" constant="no"/>
+<attribute name="MPN" value="CL31A476MQHNNNE" constant="no"/>
 <attribute name="VALUE" value="47uF" constant="no"/>
 </technology>
 </technologies>
@@ -5320,30 +5287,6 @@ GRM31CE70J476ME15L (https://www.digikey.com.au/product-detail/en/murata-electron
 <device name="">
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="SMD-RES-0R-5%-1/10W(0603)" urn="urn:adsk.eagle:component:8399615/6" prefix="R" uservalue="yes" library_version="32" library_locally_modified="yes">
-<description>301010292</description>
-<gates>
-<gate name="G$1" symbol="RES" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="R0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:8399816/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MPN" value="MF-RES-0603-0" constant="no"/>
-<attribute name="MPN_SEEED" value="RC0603JR-070RL" constant="no"/>
-<attribute name="VALUE" value="0R"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -5682,7 +5625,7 @@ https://katalog.we-online.de/em/datasheet/9774030243.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MAX232" urn="urn:adsk.eagle:component:11886784/1" prefix="U" library_version="51">
+<deviceset name="MAX232" urn="urn:adsk.eagle:component:11886784/2" prefix="U" library_version="52">
 <description>&lt;b&gt;RS232 Transceiver&lt;/b&gt;
 Very common IC. This is generically called 'MAX232', but works with the 3V equivalent MAX3232 generic ICs. Field tested and mother approved. Spark Fun Electronics SKU : COM-00316 (DIP) and COM-00589 (SMD)</description>
 <gates>
@@ -5712,7 +5655,9 @@ Very common IC. This is generically called 'MAX232', but works with the 3V equiv
 <package3dinstance package3d_urn="urn:adsk.eagle:package:11886779/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MPN" value="MAX3232EEUE+T" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="PTH" package="DIL16">
@@ -5890,14 +5835,14 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="R1" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="SMD-RES-100K-1%-1/16W(0402)" device="" package3d_urn="urn:adsk.eagle:package:8399820/5" value="100K"/>
 <part name="C1" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="CERAMIC-100NF-25V-10%-X7R(0402)" device="" package3d_urn="urn:adsk.eagle:package:8118582/2" value="100nf"/>
 <part name="GND1" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="GND" device=""/>
-<part name="C6" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="CERAMIC-10UF-25V-10%-X5R(0805)" device="" package3d_urn="urn:adsk.eagle:package:23625/2" value="10uf"/>
-<part name="C7" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="CERAMIC-10UF-25V-10%-X5R(0805)" device="" package3d_urn="urn:adsk.eagle:package:23625/2" value="10uf"/>
+<part name="C6" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="CERAMIC-10UF-(1206)" device="" package3d_urn="urn:adsk.eagle:package:8399592/3" value="10uF"/>
+<part name="C7" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="CERAMIC-10UF-(1206)" device="" package3d_urn="urn:adsk.eagle:package:8399592/3" value="10uF"/>
 <part name="SUPPLY6" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="3.3V" device=""/>
 <part name="SUPPLY7" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="1.8V" device=""/>
 <part name="GND6" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="GND" device=""/>
 <part name="GND7" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="GND" device=""/>
-<part name="C2" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="CERAMIC-10UF-25V-10%-X5R(0805)" device="" package3d_urn="urn:adsk.eagle:package:23625/2" value="10uf"/>
-<part name="C3" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="CERAMIC-10UF-25V-10%-X5R(0805)" device="" package3d_urn="urn:adsk.eagle:package:23625/2" value="10uf"/>
+<part name="C2" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="CERAMIC-10UF-(1206)" device="" package3d_urn="urn:adsk.eagle:package:8399592/3" value="10uF"/>
+<part name="C3" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="CERAMIC-10UF-(1206)" device="" package3d_urn="urn:adsk.eagle:package:8399592/3" value="10uF"/>
 <part name="GND3" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="GND" device=""/>
 <part name="SUPPLY18" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="3.3V" device=""/>
 <part name="SUPPLY29" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="3.3V" device=""/>
@@ -5910,12 +5855,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="GND9" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="5V" device=""/>
 <part name="GND2" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="GND" device=""/>
-<part name="SUPPLY8" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="VXX" device="" value="VBUSA"/>
 <part name="GND8" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="GND" device=""/>
 <part name="C4" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="CERAMIC-47UF-6.3V-20%-(1206)" device="" package3d_urn="urn:adsk.eagle:package:8399592/3" value="47uF"/>
-<part name="C5" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="CERAMIC-47UF-6.3V-20%-(1206)" device="" package3d_urn="urn:adsk.eagle:package:8399592/3" value="47uF"/>
-<part name="SUPPLY5" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="VXX" device="" value="VBUSA"/>
-<part name="R2" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="SMD-RES-0R-5%-1/10W(0603)" device="" package3d_urn="urn:adsk.eagle:package:8399816/2" value="0R"/>
 <part name="GND4" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="5V" device=""/>
 <part name="H1" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="CUBESATBUS" device="H" package3d_urn="urn:adsk.eagle:package:8399594/5"/>
@@ -5990,6 +5931,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <attribute name="SPARKLE_ID" value="918"/>
 </part>
 <part name="SUPPLY16" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="3.3V" device=""/>
+<part name="SUPPLY8" library="RPI_CAM" library_urn="urn:adsk.eagle:library:4435631" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7750,9 +7692,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="F1" gate="G$1" x="149.86" y="137.16" smashed="yes">
 <attribute name="NAME" x="151.765" y="140.335" size="1.778" layer="95" font="vector" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY8" gate="G$1" x="154.94" y="91.44" smashed="yes">
-<attribute name="VALUE" x="154.94" y="94.234" size="1.778" layer="96" align="bottom-center"/>
-</instance>
 <instance part="GND8" gate="1" x="154.94" y="66.04" smashed="yes">
 <attribute name="VALUE" x="154.94" y="65.786" size="1.778" layer="96" align="top-center"/>
 </instance>
@@ -7760,26 +7699,18 @@ We've spent an enormous amount of time creating and checking these footprints an
 <attribute name="NAME" x="110.49" y="82.55" size="1.27" layer="95" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="114.3" y="82.55" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
-<instance part="C5" gate="G$1" x="119.38" y="86.36" smashed="yes" rot="R90">
-<attribute name="NAME" x="118.11" y="82.55" size="1.27" layer="95" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="121.92" y="82.55" size="1.27" layer="96" ratio="10" rot="R90"/>
+<instance part="GND4" gate="1" x="111.76" y="73.66" smashed="yes">
+<attribute name="VALUE" x="111.76" y="73.406" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY5" gate="G$1" x="119.38" y="104.14" smashed="yes">
-<attribute name="VALUE" x="119.38" y="106.934" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="R2" gate="G$1" x="111.76" y="99.06" smashed="yes" rot="R90">
-<attribute name="NAME" x="110.49" y="95.25" size="1.27" layer="95" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="114.3" y="95.25" size="1.27" layer="96" ratio="10" rot="R90"/>
-</instance>
-<instance part="GND4" gate="1" x="119.38" y="73.66" smashed="yes">
-<attribute name="VALUE" x="119.38" y="73.406" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="SUPPLY4" gate="G$1" x="111.76" y="104.14" smashed="yes">
-<attribute name="VALUE" x="111.76" y="106.934" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY4" gate="G$1" x="111.76" y="96.52" smashed="yes">
+<attribute name="VALUE" x="111.76" y="99.314" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="J1" gate="G$1" x="137.16" y="81.28" smashed="yes">
 <attribute name="NAME" x="132.07636875" y="89.4196" size="1.271809375" layer="95"/>
 <attribute name="VALUE" x="132.078159375" y="68.5745" size="1.270909375" layer="96"/>
+</instance>
+<instance part="SUPPLY8" gate="G$1" x="154.94" y="91.44" smashed="yes">
+<attribute name="VALUE" x="154.94" y="94.234" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -7872,12 +7803,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="82.55" x2="111.76" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="78.74" x2="119.38" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="119.38" y1="78.74" x2="119.38" y2="82.55" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="78.74" x2="119.38" y2="76.2" width="0.1524" layer="91"/>
-<junction x="119.38" y="78.74"/>
+<wire x1="111.76" y1="82.55" x2="111.76" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 </net>
@@ -8031,9 +7957,15 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="F1" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="111.76" y1="104.14" x2="111.76" y2="102.87" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="86.36" x2="154.94" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="86.36" x2="154.94" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="1"/>
+<pinref part="SUPPLY8" gate="G$1" pin="5V"/>
+</segment>
+<segment>
+<pinref part="C4" gate="G$1" pin="2"/>
 <pinref part="SUPPLY4" gate="G$1" pin="5V"/>
+<wire x1="111.76" y1="90.17" x2="111.76" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="HSI_DEBUG_V" class="2">
@@ -8055,27 +7987,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="160.02" y1="81.28" x2="147.32" y2="81.28" width="0.1524" layer="91"/>
 <label x="154.94" y="81.28" size="1.778" layer="95"/>
 <pinref part="J1" gate="G$1" pin="3"/>
-</segment>
-</net>
-<net name="VBUSA" class="2">
-<segment>
-<wire x1="147.32" y1="86.36" x2="154.94" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="86.36" x2="154.94" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="SUPPLY8" gate="G$1" pin="VXX"/>
-<pinref part="J1" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="119.38" y1="90.17" x2="119.38" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="SUPPLY5" gate="G$1" pin="VXX"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-<pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="119.38" y1="91.44" x2="119.38" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="95.25" x2="111.76" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="91.44" x2="111.76" y2="90.17" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="91.44" x2="119.38" y2="91.44" width="0.1524" layer="91"/>
-<junction x="111.76" y="91.44"/>
-<junction x="119.38" y="91.44"/>
 </segment>
 </net>
 <net name="EPS_OUT6" class="2">
